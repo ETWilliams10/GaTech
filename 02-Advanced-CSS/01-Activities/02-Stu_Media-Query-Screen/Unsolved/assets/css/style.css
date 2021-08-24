@@ -34,6 +34,32 @@ header {
   width: 100%;
 }
 
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+
+  .card {
+    width: 50%;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+
+
+
+
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
 
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
